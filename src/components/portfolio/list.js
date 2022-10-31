@@ -1,5 +1,6 @@
 import troll from "../../assets/troll.PNG";
 import vb from "../../assets/vb.PNG";
+import cc from "../../assets/cc.PNG";
 
 export const list = [
   {
@@ -20,5 +21,14 @@ export const list = [
     github: "https://github.com/nsikakessien/Simple_Video_Browser",
     tech: "React, CSS, API, Semantic UI",
     img: vb,
+  },
+  {
+    id: 3,
+    name: "Clothing Collection",
+    description: "an e-commerce clothing website",
+    link: "https://clothing-collection.netlify.app/",
+    github: "https://github.com/nsikakessien/clothing-website",
+    tech: "React, Redux, Styled Components",
+    img: cc,
   },
 ];
