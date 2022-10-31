@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/CV1.pdf";
 import { ReactComponent as Html } from "../../assets/html.svg";
 import { ReactComponent as Css } from "../../assets/css.svg";
 import { ReactComponent as ReactIcon } from "../../assets/rn.svg";
@@ -8,6 +8,8 @@ import { ReactComponent as Rn } from "../../assets/rn1.svg";
 import { ReactComponent as StyleC } from "../../assets/sc.svg";
 import { ReactComponent as Tail } from "../../assets/tcss.svg";
 import { ReactComponent as Javascript } from "../../assets/js.svg";
+import { ReactComponent as Typescript } from "../../assets/ts.svg";
+import { ReactComponent as Git } from "../../assets/git.svg";
 
 const About = () => {
   return (
@@ -34,6 +36,8 @@ const About = () => {
             <StyleC />
             <Tail />
             <Rn />
+            <Typescript />
+            <Git />
           </div>
         </div>
       </div>

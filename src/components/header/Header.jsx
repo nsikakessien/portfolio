@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import MyPicture from "../../assets/graph.jpg";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/CV1.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
