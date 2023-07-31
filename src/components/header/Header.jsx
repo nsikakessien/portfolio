@@ -23,7 +23,7 @@ const Header = () => {
           <p>Let's Talk:</p>
           <div className="contact">
             <a
-              href="https://www.linkedin.com/in/nsikak-essien-1ba609193/"
+              href="https://www.linkedin.com/in/nsikak-imeh-essien-1ba609193/"
               target="_blank"
               rel="noreferrer"
             >
