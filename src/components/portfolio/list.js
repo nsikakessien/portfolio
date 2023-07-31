@@ -1,5 +1,5 @@
 import troll from "../../assets/troll.PNG";
-import vb from "../../assets/vb.PNG";
+import sc from "../../assets/sclone.PNG";
 import cc from "../../assets/cc.PNG";
 
 export const list = [
@@ -15,12 +15,12 @@ export const list = [
   },
   {
     id: 2,
-    name: "VideoBrowser",
-    description: "uses Youtube API to search and display videos of your choice",
-    link: "https://simple-video-browser.netlify.app",
-    github: "https://github.com/nsikakessien/Simple_Video_Browser",
-    tech: "React, CSS, API, Semantic UI",
-    img: vb,
+    name: "SignalClone",
+    description: "clone of the signal instant messaging service mobile app",
+    link: "https://expo.dev/@nsk_45/SignalClone?serviceTyp",
+    github: "https://github.com/nsikakessien/signal-clone",
+    tech: "React Native, Firebase",
+    img: sc,
   },
   {
     id: 3,

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/CV1.pdf";
+import CV from "../../assets/CV.pdf";
 import { ReactComponent as Html } from "../../assets/html.svg";
 import { ReactComponent as Css } from "../../assets/css.svg";
 import { ReactComponent as ReactIcon } from "../../assets/rn.svg";
