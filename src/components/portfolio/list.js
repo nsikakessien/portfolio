@@ -1,6 +1,7 @@
 import troll from "../../assets/troll.PNG";
 import sc from "../../assets/sclone.PNG";
 import cc from "../../assets/cc.PNG";
+import movie from "../../assets/moviebox.PNG";
 
 export const list = [
   {
@@ -30,5 +31,14 @@ export const list = [
     github: "https://github.com/nsikakessien/clothing-website",
     tech: "React, Redux, Styled Components",
     img: cc,
+  },
+  {
+    id: 4,
+    name: "Movie Box",
+    description: "Search for your favorite movies",
+    link: "https://nsk-moviebox.netlify.app/",
+    github: "https://github.com/nsikakessien/MovieBox",
+    tech: "React, ContextAPI, Tailwind CSS, TMDB API",
+    img: movie,
   },
 ];
