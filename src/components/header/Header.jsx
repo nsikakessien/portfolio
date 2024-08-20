@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import MyPicture from "../../assets/graph.jpg";
-import CV from "../../assets/CV.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -16,7 +15,14 @@ const Header = () => {
             <h3 className="intro">Hi, I am</h3>
             <h1 className="name">Nsikak Essien</h1>
             <h3 className="job">and i am a Front-end Developer</h3>
-            <a href={CV} download className="btn">
+            <a
+              href={
+                "https://drive.google.com/file/d/1WuY4HefMm_TGVX7dB0-ZlA_jsXF7O5XD/view?usp=sharing"
+              }
+              target="_blank"
+              className="btn"
+              rel="noreferrer"
+            >
               Download CV
             </a>
           </div>
