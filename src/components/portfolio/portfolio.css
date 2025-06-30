@@ -15,7 +15,7 @@
   color: var(--color-white);
   display: flex;
   flex-direction: column;
-  padding: 10rem 1rem 0 1rem;
+  padding: 5rem 1rem 0 1rem;
 }
 
 .portfolio__container h2 {
@@ -49,6 +49,8 @@
   background: transparent;
   margin-right: 1rem;
   border-radius: 15px 50px;
+  height: 400px;
+  box-sizing: border-box;
 }
 
 .content h5 {
@@ -89,5 +91,6 @@
 
   .content {
     margin-bottom: 2rem;
+    height: 350px;
   }
 }

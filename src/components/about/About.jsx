@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/CV.pdf";
 import { ReactComponent as Html } from "../../assets/html.svg";
 import { ReactComponent as Css } from "../../assets/css.svg";
 import { ReactComponent as ReactIcon } from "../../assets/rn.svg";
@@ -18,12 +17,18 @@ const About = () => {
         <div className="left__side">
           <h2>About Me</h2>
           <p>
-            Hi there, i am Nsikak Imeh-Essien, a Front-end developer with a
-            passion for responsive website design. i am learning new skills and
-            having a little fun on my way to Full stack development.
+            Hi, I'm Nsikak Essien — a frontend developer passionate about
+            building responsive, user-friendly web interfaces. I specialize in
+            React, TypeScript, and modern UI libraries to create clean,
+            accessible, and scalable web applications.
           </p>
-          <a href={CV} download className="btn">
-            Download CV
+          <a
+            href="https://drive.google.com/file/d/1D_LH1jjVq_yjb5A0en0msMMp1M-SpR1L/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            View Resume
           </a>
         </div>
         <div className="right__side">

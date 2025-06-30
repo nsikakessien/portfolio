@@ -16,14 +16,12 @@ const Header = () => {
             <h1 className="name">Nsikak Essien</h1>
             <h3 className="job">and i am a Front-end Developer</h3>
             <a
-              href={
-                "https://drive.google.com/file/d/1WuY4HefMm_TGVX7dB0-ZlA_jsXF7O5XD/view?usp=sharing"
-              }
+              href="https://drive.google.com/file/d/1D_LH1jjVq_yjb5A0en0msMMp1M-SpR1L/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn"
-              rel="noreferrer"
             >
-              Download CV
+              View Resume
             </a>
           </div>
           <p>Let's Talk:</p>
